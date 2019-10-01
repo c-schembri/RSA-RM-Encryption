@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSA-RM-Encryption", "RSA-RM-Encryption\RSA-RM-Encryption.csproj", "{56FBFCE7-96D1-4F2A-8266-E0371E8EFB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleProgram", "ExampleProgram\ExampleProgram.csproj", "{27307FB2-0C1E-4ACF-A4FD-9E9D75FD70B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncryptionTests", "EncryptionTests\EncryptionTests.csproj", "{73A5CBF5-64EF-4919-919E-53DBE1641709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56FBFCE7-96D1-4F2A-8266-E0371E8EFB10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56FBFCE7-96D1-4F2A-8266-E0371E8EFB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56FBFCE7-96D1-4F2A-8266-E0371E8EFB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56FBFCE7-96D1-4F2A-8266-E0371E8EFB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27307FB2-0C1E-4ACF-A4FD-9E9D75FD70B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27307FB2-0C1E-4ACF-A4FD-9E9D75FD70B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27307FB2-0C1E-4ACF-A4FD-9E9D75FD70B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27307FB2-0C1E-4ACF-A4FD-9E9D75FD70B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A5CBF5-64EF-4919-919E-53DBE1641709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A5CBF5-64EF-4919-919E-53DBE1641709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A5CBF5-64EF-4919-919E-53DBE1641709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A5CBF5-64EF-4919-919E-53DBE1641709}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
