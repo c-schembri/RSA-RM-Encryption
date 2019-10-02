@@ -113,7 +113,7 @@ namespace UnitTests
         }
         
         /// <summary>
-        /// Generates various sessions key states for the unit tests.
+        /// Generates various session key states for the unit tests.
         /// </summary>
         private static void GenerateClientSessionKeys(out List<string> unencryptedSessionKeys, out List<string> encryptedSessionKeys)
         {
@@ -133,15 +133,15 @@ namespace UnitTests
         private static string GenerateRandomString(int length)
         {
             char[] validChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".ToCharArray();
-            byte[] accountIdBytes = new byte[length];
+            byte[] randomStringBytes = new byte[length];
 
             using (var rngCryptoServiceProvider = new RNGCryptoServiceProvider())
             {
-                rngCryptoServiceProvider.GetBytes(accountIdBytes);
+                rngCryptoServiceProvider.GetBytes(randomStringBytes);
             }
 
             var result = new StringBuilder(length);
-            foreach (byte b in accountIdBytes)
+            foreach (byte b in randomStringBytes)
             {
                 result.Append(validChars[b % validChars.Length]);
             }
